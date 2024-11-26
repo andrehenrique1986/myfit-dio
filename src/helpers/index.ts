@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import moment, {MomentInput} from 'moment';
 
-//import { Item } from "../types";
+import { Item } from "../types";
 
 export const generateUniqueId = (): string => {
     return Date.now().toString(36) + Math.random().toString(36).substring(2);
